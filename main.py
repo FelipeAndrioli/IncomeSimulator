@@ -154,10 +154,7 @@ def investmentReport(weeks, investment, economy, income, totalInvested, totalInv
             print('2 - Sair sem ver grafico')
             graphOption = int(input('Selecione sua opcao: '))
             if(graphOption == 1):
-                plt.plot(totalInvestedPlot)
-                plt.ylabel('Rendimento do valor investido')
-                plt.xlabel('Semanas de investimento')
-                plt.show()
+                plotInvestmentGraph(totalInvestedPlot)
                 break
             elif(graphOption == 2):
                 break
@@ -166,7 +163,14 @@ def investmentReport(weeks, investment, economy, income, totalInvested, totalInv
         except ValueError:
             print('Digite uma opcao valida!')
 
-def plotInvestimentGraph(weeklyValues):
+def plotInvestmentGraph(weeklyValues):
+
+    '''
+        Funcao para gerar o grafico de rendimento durante as semanas investidas,
+        foi um feature de ultima hora para utilizar o Docker baixando a dependencia
+        necessaria para criacao de graficos.
+    '''
+
     plt.plot(weeklyValues)
     plt.ylabel('Total Investido')
     plt.xlabel('Semanas do investimento')
