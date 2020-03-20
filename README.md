@@ -22,3 +22,8 @@ $ docker run -it --rm --name running income-container income-container
 ```
 
 Logo após o programa sera executado.
+
+
+## Observação
+
+Utilizando a versão sem o Docker a feature do gráfico funciona normalmente, entretanto instalando as depedências com o Docker a feature do gráfico não executa, muito provavelmente por minha falta de conhecimento com as configurações do Docker, tentarei resolver nas próximas horas e atualizarei o README
