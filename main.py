@@ -171,6 +171,7 @@ def plotInvestimentGraph(weeklyValues):
     plt.ylabel('Total Investido')
     plt.xlabel('Semanas do investimento')
     plt.show()
+    return 
 
 def main():
     
