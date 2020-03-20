@@ -15,12 +15,8 @@ executando com o comando ```python main.py```.
 
 Para executar usando Docker, dois comandos serao necessarios:
 
-	```
-		docker build -t income-container .
-	```
+	```docker build -t income-container .```
 
-	```
-		docker run -it --rm --name running income-container income-container
-	```
+	```docker run -it --rm --name running income-container income-container```
 
 Logo apos o programa sera executado.
