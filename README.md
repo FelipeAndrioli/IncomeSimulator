@@ -27,3 +27,10 @@ Logo ap√≥s o programa sera executado.
 ## Observa√ß√£o
 
 Utilizando a vers√£o sem o Docker a feature do gr√°fico funciona normalmente, entretanto instalando as deped√™ncias com o Docker a feature do gr√°fico n√£o executa, muito provavelmente por minha falta de conhecimento com as configura√ß√µes do Docker, tentarei resolver nas pr√≥ximas horas e atualizarei o README
+
+## Observa√√o II
+
+Ap√s muitas pesquisas e testes descobri que Docker n√o √©recomenedado para aplica√√es
+com interfaces gr√ficas, devido a essa conclus√o alterarei parte do escopo do projeto
+que consistia em mostrar um gr√fico de rendimentos para que n√o afete o total 
+funcionamento do mesmo. 
