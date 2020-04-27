@@ -1,9 +1,9 @@
 ## README
 
-Este é um pequeno projeto de simulação de rendimento em um investimento.
+Este eh um pequeno projeto de simulacao de rendimento em um investimento.
 
-Para executar, acesse a pasta de destino através de seu terminal e
-siga as seguintes instruções:
+Para executar, acesse a pasta de destino atraves de seu terminal e
+siga as seguintes instrucoes:
 
 ## SEM DOCKER
 
@@ -13,7 +13,7 @@ executando com o comando ```$ python main.py```.
 
 ## COM DOCKER
 
-Para executar usando Docker, dois comandos serão necessários:
+Para executar usando Docker, dois comandos serao necessarios:
 
 ```
 $ docker build -t income-container .
@@ -21,16 +21,16 @@ $ docker build -t income-container .
 $ docker run -it --rm --name running income-container income-container
 ```
 
-Logo após o programa sera executado.
+Logo apos o programa sera executado.
 
 
-## Observação
+## Observacao
 
-Utilizando a versão sem o Docker a feature do gráfico funciona normalmente, entretanto instalando as depedências com o Docker a feature do gráfico não executa, muito provavelmente por minha falta de conhecimento com as configurações do Docker, tentarei resolver nas próximas horas e atualizarei o README
+Utilizando a versao sem o Docker a feature do grafico funciona normalmente, entretanto instalando as depedencias com o Docker a feature do grafico nao executa, muito provavelmente por minha falta de conhecimento com as configuracoes do Docker, tentarei resolver nas proximas horas e atualizarei o README
 
-## Observa��o II
+## Observacoes II
 
-Ap�s muitas pesquisas e testes descobri que Docker n�o érecomenedado para aplica��es
-com interfaces gr�ficas, devido a essa conclus�o alterarei parte do escopo do projeto
-que consistia em mostrar um gr�fico de rendimentos para que n�o afete o total 
+Apos muitas pesquisas e testes descobri que Docker nao eh recomenedado para aplicacoes
+com interfaces graficas, devido a essa conclusso alterarei parte do escopo do projeto
+que consistia em mostrar um grafico de rendimentos para que nao afete o total 
 funcionamento do mesmo. 
